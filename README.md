@@ -13,3 +13,6 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ### 1. Criar uma EC2.
 
 - Clicar em "Launch Instances"
+  <br>
+
+  ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/Criando%20uma%20Ec2.png)
