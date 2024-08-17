@@ -24,4 +24,14 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
     <br>
 
  ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/AdicionarHttpNoSecurityG.png)
+
+ <br>
+
+ - Próximo passo e clicar em Advanced details, para expandir e conseguirmos localizar onde vamos de fato adicionar nosso script de automação.
+
+   <br>
+   
+![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/UserData.png)
+
+   
     
