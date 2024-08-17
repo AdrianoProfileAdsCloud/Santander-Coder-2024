@@ -30,7 +30,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
    <br>
    
-![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/UserDataComScript.png)
+![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/UserData.png)
 
 <br>
 
