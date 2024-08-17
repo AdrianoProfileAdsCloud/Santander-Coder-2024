@@ -1,7 +1,7 @@
 # Santander Coder 2024
 
 ## 🎯 Objetivos Deste Desafio de Projeto.
-Projeto que envolve a utilização de scripts de inicialização (User Data) para automatizar a instalação e configuração de um servidor web ( Apache) em uma instância Amazon Linux.
+Projetinho que tem como objetivo a utilização de scripts de inicialização (User Data) para automatizar a instalação e configuração de um servidor web ( Apache) em uma instância Amazon Linux.
 
 ## 📋 Pré-requisitos
 
@@ -13,3 +13,29 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ### 1. Criar uma EC2.
 
 - Clicar em "Launch Instances"
+  <br>
+
+  ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/Criando%20uma%20Ec2.png)
+
+  <br>
+
+ >[!NOTE]
+ >Se atente para realizar a liberação da porta 80 do tipo HTTP no Segcurity Group no momento da criação da EC3.
+ 
+ ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/AdicionarHttpNoSecurityG.png)
+
+ <br>
+
+ - Próximo passo e clicar em Advanced details, para expandir e conseguirmos localizar onde vamos de fato adicionar nosso script de automação.
+
+   <br>
+   
+![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/UserDataComScript.png)
+
+<br>
+
+ >[!NOTE]
+ >Para este projeto foi criado uma pagina html bem simples, apenas para demostrar o funcionamento do WebServer.O foco principal é o Script para criar um WebServer.
+
+   
+    
