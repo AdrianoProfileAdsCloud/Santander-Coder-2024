@@ -19,8 +19,8 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
   <br>
 
-   > [!NOTE]
-  > Se atente para realizar a liberação da porta 80 do tipo HTTP no Segcurity Group no momento da criação da EC3.
+   >[!NOTE]
+   >Se atente para realizar a liberação da porta 80 do tipo HTTP no Segcurity Group no momento da criação da EC3.
  
     <br>
 
@@ -36,8 +36,8 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 <br>
 
- > [!NOTE]
- > Para este projeto foi criado uma pagina html bem simples, apenas para demostrar o funcionamento do WebServer.O foco principal é o Script para criar um WebServer.
+ >[!NOTE]
+ >Para este projeto foi criado uma pagina html bem simples, apenas para demostrar o funcionamento do WebServer.O foco principal é o Script para criar um WebServer.
 
    
     
