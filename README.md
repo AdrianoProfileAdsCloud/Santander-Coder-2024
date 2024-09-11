@@ -1,50 +1,30 @@
 # Santander Coder 2024
-
-## 🎯 Objetivos Deste Desafio de Projeto.
-<br>
-<br>
-<br>
 <br>
 <br>
 
-O Santander Tech+ é um programa inédito em parceria com o Santander Open Academy que oferecerá 60 mil bolsas digitais gratuitas em tecnologia, com o objetivo  de aprimorarmos nossas habilidades essenciais para o mercado de trabalho.
+
+## 🎯 O Santander Coders 2024 esta sendo uma oportunidade perfeita para aprender mais e reforçar conhecimentos já adquiridos.
+<p>Foram  60.000 bolsas e 5 trilhas de estudo (Web Back-End, Web Front-End, Data Science, Engenheiro de Dados e DevOps).</p>
+<p>Forão muitas etapas até conseguir minha bolsa, dessas 60.000 bolsas foram distribuidas entre as 5 trilhas e dentro de cada trilha mais filtro através das etapas para então eu poder conseguir minha bolsa entre os 30 selecionados para trilha de DevOps a qual optei. </p>
+<p>Esta valendo muito os esforços para passar nas faces de seleção.O curso traz as competências mais procuradas pelo mercado da tecnologia e ao concluir receberei meu certificado de conclusão com as horas cursadas.</p>
+Estou buscando mais que o certificado, estou buscando mais conhecimento de qualidade e habilidades em ser um "DevOps".Pois cada módulo tras desáfios, que utilizamos todo o conhecimento adquirido nas ulas para sua resolução.</p>
 <br>
-<br>
-Através de um teste inovador, indicaremos a trilha tech que mais se adequa ao seu perfil: Back-end, Front-end ou Data Science. Além disso, os 1.000 melhores colocados terão a oportunidade de participar da nova formação da Ada, o Skill+: um curso flexível completo para desenvolver habilidades essenciais no mercado de trabalho, com acesso a mentorias e simulações de entrevistas técnicas exclusivas com nossos especialistas. Demais, né?
 
-## 📋 Pré-requisitos
+ ## 🚀 
 
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira neste repositório um passo a passo de como criar.<br>
- [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
 
- ## 🚀 Passo a Passo
+ ![image](assets/Captura de tela de 2024-09-11 19-47-04.png).
 
-### 1. Criar uma EC2.
 
-- Clicar em "Launch Instances"
-  <br>
 
-  ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/Criando%20uma%20Ec2.png)
 
-  <br>
+
+  ![image](/media/adrianano/ProjetosCursos/Projetos e BootCamps/Santander Coders 2024/Santander-Coder-2024/assets/curso_santander___santander_coders_2024.png)
+
+  
 
  >[!NOTE]
- >Se atente para realizar a liberação da porta 80 do tipo HTTP no Segcurity Group no momento da criação da EC3.
- 
- ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/AdicionarHttpNoSecurityG.png)
-
- <br>
-
- - Próximo passo e clicar em Advanced details, para expandir e conseguirmos localizar onde vamos de fato adicionar nosso script de automação.
-
-   <br>
-   
-![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/UserData.png)
-
-<br>
-
- >[!NOTE]
- >Para este projeto foi criado uma pagina html bem simples, apenas para demostrar o funcionamento do WebServer.O foco principal é o Script para criar um WebServer.
+ >Ao longo dessa trilha de aprendizagem deixarei registrado aqui os projetos dos módulos que por si só diram o quanto apredi e evolui!
 
    
     
