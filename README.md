@@ -1,7 +1,16 @@
 # Santander Coder 2024
 
 ## 🎯 Objetivos Deste Desafio de Projeto.
-Projetinho que tem como objetivo a utilização de scripts de inicialização (User Data) para automatizar a instalação e configuração de um servidor web ( Apache) em uma instância Amazon Linux.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+O Santander Tech+ é um programa inédito em parceria com o Santander Open Academy que oferecerá 60 mil bolsas digitais gratuitas em tecnologia, com o objetivo  de aprimorarmos nossas habilidades essenciais para o mercado de trabalho.
+<br>
+<br>
+Através de um teste inovador, indicaremos a trilha tech que mais se adequa ao seu perfil: Back-end, Front-end ou Data Science. Além disso, os 1.000 melhores colocados terão a oportunidade de participar da nova formação da Ada, o Skill+: um curso flexível completo para desenvolver habilidades essenciais no mercado de trabalho, com acesso a mentorias e simulações de entrevistas técnicas exclusivas com nossos especialistas. Demais, né?
 
 ## 📋 Pré-requisitos
 
