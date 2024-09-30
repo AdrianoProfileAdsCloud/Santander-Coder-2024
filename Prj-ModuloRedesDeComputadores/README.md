@@ -25,7 +25,7 @@
  Detalhamento da sub-rede.
  ![alt text](<assets/detalhes da rede.png>)
 
- >[!Observação]
+ >[!NOTE]
  > Neste caso farei uso apenas das três primeiras sub-redes.
  >- 192.168.10.0 
  >- 192.168.10.64
