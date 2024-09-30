@@ -15,14 +15,14 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 - Clicar em "Launch Instances"
   <br>
 
-  ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/Criando%20uma%20Ec2.png)
+  ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Prj-Automatizacao-AWS/Imagens/Criando%20uma%20Ec2.png)
 
   <br>
 
  >[!NOTE]
  >Se atente para realizar a liberação da porta 80 do tipo HTTP no Segcurity Group no momento da criação da EC3.
  
- ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/AdicionarHttpNoSecurityG.png)
+ ![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Prj-Automatizacao-AWS/Imagens/AdicionarHttpNoSecurityG.png)
 
  <br>
 
@@ -30,7 +30,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
    <br>
    
-![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Imagens/UserDataComScript.png)
+![image](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/Prj-Automatizacao-AWS/Imagens/UserData.png)
 
 <br>
 
