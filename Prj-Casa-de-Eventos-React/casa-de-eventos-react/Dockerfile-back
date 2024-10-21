@@ -1,0 +1,60 @@
+FROM node:20.5.1
+WORKDIR /app
+COPY package*.json ./
+RUN npm install json-server --save-dev
+COPY eventos.json ./
+EXPOSE 3000
+CMD ["npx", "json-server", "--watch", "eventos.json", "--host", "0.0.0.0"]
+
+# Anlisando melhor o --save-dev
+# --save-devguarde o pacote como uma dependência de desenvolvimento, o que significa que só será 
+# necessário no ambiente de desenvolvimento e não será instalado quando o aplicativo estiver em 
+# produção, mantendo o aplicativo mais liviana.
+# Comando útil em ambientes de desenvolvimento , especialmente quando você está simulando APIs ou 
+# criando aplicativos front-end que ainda não têm um backend real.
+
+# O comando executado json-serveré uma ferramenta do Node.js que permite gerar rapidamente uma 
+# API REST a partir de um arquivo JSON, permitindo que outros aplicativos (como um aplicativo frontend)
+# acessem esses dados de maneira estruturada.
+
+# CMD ["npx", "json-server", "--watch", "eventos.json", "--host", "0.0.0.0"] :
+# CMD : Em um Dockerfile, o comando CMDespecifica o que o contêiner deve ser executado quando for 
+# iniciado. É como o "comportamento por defeito" do contêiner.
+# ["npx", "json-server", "--watch", "eventos.json", "--host", "0.0.0.0"] : Este conjunto 
+# de instruções é executado json-server usando npx.
+
+# npx :
+# npx é uma ferramenta que vem com Node.js e permite executar pacotes sem precisar instalá-los 
+# globalmente. Se o pacote estiver no diretório do projeto ( node_modules), ele será executado de 
+# lá ou se não estiver instalado, ele será baixado temporariamente para essa execução.
+# Neste caso, estamos usando npx para executar json-server, o que significa que não é necessário instalar
+# json-serverglobalmente.
+
+# json-server :
+# json-server é uma ferramenta que converte um arquivo JSON em uma API REST totalmente 
+# funcional com operações CRUD (criar, ler, atualizar, excluir). POdendo usar este servidor 
+# para simular uma API que interage com dados enquanto desenvolvemos um aplicativo.
+# Neste caso, a API é gerada a partir de um arquivo JSON chamado eventos.json.
+
+# watch :
+# Este é um parâmetro json-serverque indica que você deve "observar" o arquivo JSON, neste 
+# caso eventos.json. Se o conteúdo do arquivo mudar enquanto o servidor estiver sendo executado, 
+# json-servera API será atualizada automaticamente com os novos dados.
+# Útil quando trabalhamos em um ambiente de desenvolvimento e os dados estão mudando constantemente. 
+
+# eventos.json :
+# Este é o arquivo JSON que json-server está sendo utilizado para gerar a API. Dentro eventos.json
+# provavelmente há dados estruturados no formato JSON (como eventos ou qualquer outro tipo de dados) 
+# que são expostos como uma API REST.
+# Por exemplo, se seu arquivo tiver dados de eventos, você poderá acessá-los através de 
+# rotas como http://#localhost:3000/eventos.
+
+# --host 0.0.0.0 :
+# O parâmetro --host indica a json-server direção IP que deve ouvir as conexões entrantes.
+# 0.0.0.0 é uma direção especial que significa "todas as interfaces de rede". É dito que o servidor 
+# estará disponível para qualquer dispositivo na rede, não apenas para localhost(que é a direção local). 
+# Isso é particularmente importante quando ele é executado em um contêiner Docker, pois permite que o servidor
+# seja acessível de fora do container (por exemplo, do seu navegador ou de outra máquina).
+
+# Observação : Explicação pesquisada sobre cada comando e sua utlização com a ajuda do chatGPT e utros
+# sites de pesquisas como: https://stackoverflow.com/

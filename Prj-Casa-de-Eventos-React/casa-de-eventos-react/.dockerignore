@@ -1,0 +1,27 @@
+# node_modules e arquivos de log
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Dependências locais do sistema
+.DS_Store
+Thumbs.db
+
+# Diretório de build do Vite 
+dist
+
+# Ignorar o Git
+.git
+.gitignore
+
+# Arquivos deconfiguração do editor
+.vscode
+.idea
+
+# Arquivos de teste
+*.test.*
+__tests__
+
+# Arquivos de cache
+.cache

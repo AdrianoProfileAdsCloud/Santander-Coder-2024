@@ -1,0 +1,42 @@
+FROM node:20.5.1 AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
+# CMD :
+# CMD é uma instrução no Dockerfile que especifica o comando predeterminado que será executado 
+# quando o contêiner for iniciado. Só pode haver um CMD Dockerfile, e ele será executado quando 
+# o container for inicializado.
+# Neste caso, o comando predeterminado que será executado será nginx.
+
+# nginx :
+# nginx é um servidor web de alto rendimento que é usado para servir conteúdo estático (como arquivos HTML, 
+# CSS, imagens, etc.) e também pode funcionar como proxy reverso ou balanceador de carga para aplicativos web.
+# Ao especificar nginx, indica que quando o container for iniciado, deverá iniciar o servidor Nginx.
+
+# -g :
+# A opção -g  permite passar instruções de configuração globais diretamente da linha de comandos. Neste 
+# caso, estou fazendo uma configuração específica sobre como o processo do servidor se comportará.
+# O parâmetro a seguir -g é uma instrução de configuração que normalmente que encontra em um arquivo 
+# de configuração do Nginx (como nginx.conf), mas pode ser incluída na linha de comandos.
+
+# daemon off:
+# A diretiva  "daemon off" indica ao Nginx que não será executado em segundo plano (ou no modo "daemon").
+# Por padrão, o Nginx é executado como um processo de background, mas no contexto de um container Docker,
+# isso não é recomendável porque o Docker espera que o processo principal do container siga sendo executado
+# no primeiro plano. Se o Nginx for executado em segundo plano, o container poderá ser encerrado imediatamente
+# por não ecnontrar nenhum processo em primeiro plano.
+# Ao usar "daemon off", forçamos o Nginx a ser executado no primeiro plano (no "foreground"), para manter o 
+# contêiner ativo e operacional.    
+
+# Por que é importante usar "daemon off;"o Docker?
+# No Docker, o container é finalizado quando não há um processo de execução no primeiro plano. 
+# Se o Nginx for executado em segundo plano, o Docker pensará que o container 
+# concluiu seu trabalho e encerará. É esse motivo foi utilizado o "daemon off" para evitar que
+# o Nginx seja executado em segundo plano e garantir que o container continue funcionando.
