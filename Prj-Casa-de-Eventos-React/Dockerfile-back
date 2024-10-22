@@ -1,0 +1,17 @@
+FROM node:20.5.1
+WORKDIR /app
+COPY package*.json ./
+RUN npm install json-server --save-dev
+COPY eventos.json ./
+EXPOSE 3000
+CMD ["npx", "json-server", "--watch", "eventos.json", "--host", "0.0.0.0"]
+
+
+
+
+
+
+
+
+
+
