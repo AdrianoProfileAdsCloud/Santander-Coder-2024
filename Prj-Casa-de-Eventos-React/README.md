@@ -30,8 +30,8 @@ Instalação do projeto localmente .
 
   - [X] **Instalando as Dependências**.
 
-  ```bash
-  npm install
+  ```bash  
+  npm install  
   ```
 
 ## Executar Docker a partir do Repositório
@@ -43,7 +43,9 @@ Para executar o contêiner da aplicação diretamente do repositório, siga as i
 > [!NOTE]
 > Neste caso , estou pegando a minha imagem já buildada no Docker Hub em [Imagem Personalizada](https://hub.docker.com/repository/docker/adrianocloud/casa-de-eventos/general)
 
-    ``bash     docker run -d -p 8080:5173 -p 3000:3000 adrianocloud/casa-de-eventos-react     ``
+```bash 
+  docker run -d -p 8080:5173 -p 3000:3000 adrianocloud/casa-de-eventos-react 
+```
 
 <br>
 
