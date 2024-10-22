@@ -255,7 +255,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
 - ### Rápida pasagem em cada Bloco que compoem o aqruivo YAML.
 
 
-  1. Serviço frontend
+1. ***Serviço Frontend***
 
 ```yaml
 
@@ -270,7 +270,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
 
 ```
 
-- ***build::***
+- ***build***
 
   - context: -> Especifica o diretório atual como contexto de build (onde o Docker vai procurar o Dockerfile e outros arquivos necessários para construir a imagem).
   - dockerfile: Dockerfile-front: -> Especifica que o Docker deve usar o arquivo Dockerfile-front para construir a imagem do frontend. Nele informamos qual docker file usar.
@@ -283,7 +283,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
   - Permite mapear arquivos do sistema local para o contêiner.
     - .:/app: ->  Mapeia o diretório atual (.) para o diretório /app dentro do contêiner. Isso significa que qualquer alteração feita nos arquivos locais será refletida instantaneamente dentro do contêiner, o que é muito útil durante o desenvolvimento.
 
-2. Serviço backend
+2. ***Serviço Backend***
 
 ```yaml
      backend:
