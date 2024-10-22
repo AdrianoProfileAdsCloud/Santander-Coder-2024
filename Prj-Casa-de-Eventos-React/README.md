@@ -1,4 +1,4 @@
-# Santander Coders 2024 - Sistema de Casa de Eventos(Conteineirizada)
+# Santander Coders 2024 - Sistema de Casa de Eventos(Conteinerizada)
 
 > [!NOTE]
 > Este repositório contém o projeto "Sistema de Casa de Eventos". A base para este Projeto foi importada do [Projeto Base](https://github.com/roofranklin/casa-de-eventos-react/blob/main/README.md) para este projeto para ter a implementação completa de uma conteinerização de uma aplicação com Docker e Docker Compose,facilitando desta foma sua implantação e escalabilidade.
