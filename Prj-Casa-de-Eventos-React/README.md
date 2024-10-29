@@ -313,7 +313,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
 <br>
 
 > [!NOTE]
-> Pesquisas de comandos e sintaxe, construida com o auxilio do chatGPT e utros meios como: https://stackoverflow.com/ e principalmente aulas do módulo de Conteineirização - Santander Coders 2024.
+> Comandos e sintaxe, construida com o auxilio de pesquisas em diversas ferramentas como chatGPT, https://stackoverflow.com/ e principalmente aulas do módulo de Conteineirização - Santander Coders 2024.
 
 <br>
 
