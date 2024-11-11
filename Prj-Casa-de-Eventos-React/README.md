@@ -1,4 +1,4 @@
-# Santander Coders 2024 - Sistema de Casa de Eventos(Conteineirizada)
+# Santander Coders 2024 - Sistema de Casa de Eventos(Conteinerizada)
 
 > [!NOTE]
 > Este repositório contém o projeto "Sistema de Casa de Eventos". A base para este Projeto foi importada do [Projeto Base](https://github.com/roofranklin/casa-de-eventos-react/blob/main/README.md) para este projeto para ter a implementação completa de uma conteinerização de uma aplicação com Docker e Docker Compose,facilitando desta foma sua implantação e escalabilidade.
@@ -30,8 +30,8 @@ Instalação do projeto localmente .
 
   - [X] **Instalando as Dependências**.
 
-  ```bash
-  npm install
+  ```bash  
+  npm install  
   ```
 
 ## Executar Docker a partir do Repositório
@@ -43,7 +43,9 @@ Para executar o contêiner da aplicação diretamente do repositório, siga as i
 > [!NOTE]
 > Neste caso , estou pegando a minha imagem já buildada no Docker Hub em [Imagem Personalizada](https://hub.docker.com/repository/docker/adrianocloud/casa-de-eventos/general)
 
-    ``bash     docker run -d -p 8080:5173 -p 3000:3000 adrianocloud/casa-de-eventos-react     ``
+```bash 
+  docker run -d -p 8080:5173 -p 3000:3000 adrianocloud/casa-de-eventos-react 
+```
 
 <br>
 
@@ -253,7 +255,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
 - ### Rápida pasagem em cada Bloco que compoem o aqruivo YAML.
 
 
-  1. Serviço frontend
+1. ***Serviço Frontend***
 
 ```yaml
 
@@ -268,7 +270,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
 
 ```
 
-- ***build::***
+- ***build***
 
   - context: -> Especifica o diretório atual como contexto de build (onde o Docker vai procurar o Dockerfile e outros arquivos necessários para construir a imagem).
   - dockerfile: Dockerfile-front: -> Especifica que o Docker deve usar o arquivo Dockerfile-front para construir a imagem do frontend. Nele informamos qual docker file usar.
@@ -281,7 +283,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
   - Permite mapear arquivos do sistema local para o contêiner.
     - .:/app: ->  Mapeia o diretório atual (.) para o diretório /app dentro do contêiner. Isso significa que qualquer alteração feita nos arquivos locais será refletida instantaneamente dentro do contêiner, o que é muito útil durante o desenvolvimento.
 
-2. Serviço backend
+2. ***Serviço Backend***
 
 ```yaml
      backend:
@@ -311,7 +313,7 @@ O `Dockerfile` foi para definir um conjunto de instruções para construir a ima
 <br>
 
 > [!NOTE]
-> Pesquisas de comandos e sintaxe, construida com o auxilio do chatGPT e utros meios como: https://stackoverflow.com/ e principalmente aulas do módulo de Conteineirização - Santander Coders 2024.
+> Comandos e sintaxe, construida com o auxilio de pesquisas em diversas ferramentas como chatGPT, https://stackoverflow.com/ e principalmente aulas do módulo de Conteineirização - Santander Coders 2024.
 
 <br>
 
