@@ -78,3 +78,28 @@ resource "aws_subnet" "subnet-privada-c" {
   depends_on = [aws_vpc.santander_coders_vpc]
 }
 
+# Internet Gateway
+
+resource "aws_internet_gateway" "igw-satander-coders" {
+vpc_id = aws_vpc.santander_coders_vpc.id
+
+tags = {
+Name = "igw-santander-coders"
+}
+}
+
+# Alocação de ip (Elastic IP)
+
+resource "aws_eip" "nat_eip_a" {
+depends_on = [aws_internet_gateway.igw-satander-coders]
+}
+
+resource "aws_eip" "nat_eip_b" {
+depends_on = [aws_internet_gateway.igw-satander-coders]
+}
+
+resource "aws_eip" "nat_eip_c" {
+depends_on = [aws_internet_gateway.igw-satander-coders]
+}
+
+
