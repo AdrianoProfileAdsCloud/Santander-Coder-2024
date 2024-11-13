@@ -49,4 +49,4 @@ técnico.
 
 ## Arquitetura proposta para a Resolução do Case
 
- [Arquitetura]([Prj- Infraestrutura como Código-Terraform.drawio.png](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/PRJ-Infraestrutura%20como%20Codigo%20-%20Terraform/Prj-%20Infraestrutura%20como%20C%C3%B3digo-Terraform.drawio.png)).
+ ![Arquitetura](https://github.com/AdrianoProfileAdsCloud/Santander-Coder-2024/blob/main/PRJ-Infraestrutura%20como%20Codigo%20-%20Terraform/Prj-%20Infraestrutura%20como%20C%C3%B3digo-Terraform.drawio.png)
