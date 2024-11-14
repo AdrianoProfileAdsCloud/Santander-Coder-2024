@@ -14,6 +14,9 @@ promoção.</p>
 <p>Detalhes da Arquitetura: Este e-commerce foi configurado na AWS com uma arquitetura</p>
 
 simplificada para uma startup, incluindo:
+
+<br>
+
 1. **Front-end:**
 * Amazon S3 para armazenar os arquivos estáticos do site.
 * Amazon CloudFront para entrega de conteúdo e CDN.
@@ -34,17 +37,19 @@ simplificada para uma startup, incluindo:
 
 <br>
 
-5. **Segurança:**
+5. **Segurança:** Não implementado(feature)
 * AWS IAM gerenciando as permissões para que apenas administradores possam acessar o
 back-end.
 * Amazon Cognito para autenticação de usuários do front-end.
-6. Monitoramento:
+  <br>
+  
+6. **Monitoramento:** Não implementado(feature)
 * Amazon CloudWatch monitora o desempenho das instâncias EC2 e envia alarmes para o time
 técnico.
 
 <br>
 
-7. **Gerenciamento de Custos:**
+7. **Gerenciamento de Custos:** Não implementado(feature)
 * AWS Budgets co
 
 ## Arquitetura proposta para a Resolução do Case
