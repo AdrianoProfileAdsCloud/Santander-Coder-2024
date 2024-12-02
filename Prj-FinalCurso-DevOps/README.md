@@ -4,7 +4,7 @@
 </div>
 
  >[!NOTE]
-> Objetivo do projeto -Com base no conhecimento adquiridos ao longo do curso, resolver o seguinte case proposto.
+> Objetivo do projeto -Com base nos conhecimentos adquiridos ao longo do curso, resolver o seguinte case proposto.
 
 <br>
 
