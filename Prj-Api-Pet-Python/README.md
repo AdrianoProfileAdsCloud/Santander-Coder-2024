@@ -3,7 +3,6 @@
 
 >[!NOTE]
 > Objetivo do projeto
-<br>
 > Desenvolver uma API que disponibiliza algumas operações para o Cadastramento e Gerenciamento de Pets.
 
 * Funcionalidades da API:
