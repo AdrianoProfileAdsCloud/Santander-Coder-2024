@@ -15,7 +15,7 @@ Criar uma solução que automatize a arquitetura em todo o seu fluxo, se baseand
 
 <br>
 
-### **Requisitos:**
+### 📋**Requisitos:**
    - [X] Código com a aplicação que envia os arquivos para o s3.
    - [X] Código da arquitetura usando boto3 ou terraform para subir os recursos.
    - [X] Os códigos precisam estar no GitHub, usando as boas práticas visto no curso.
@@ -28,7 +28,7 @@ Criar uma solução que automatize a arquitetura em todo o seu fluxo, se baseand
 
 <br>
 
-### Definição da Arquitetura.
+### ✒️ Definição da Arquitetura.
 
 <br>
 
